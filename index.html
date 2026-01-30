@@ -2,92 +2,152 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aishwarya Behare | Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-<header>
-    <nav class="navbar">
-        <div class="logo">Aishwarya Behare</div>
+<div class="layout">
 
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+    <h2>Aishwarya Behare</h2>
+    <p class="tagline">End-to-end Java Backend Developer crafting digital experiences with code, creativity, and innovation.</p>
+    <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</aside>
 
-<section id="home" class="hero">
-    <h1>Hi, I'm <span class="highlight">Aishwarya</span></h1>
-    <p class="subtitle">Backend Developer | Java | Spring Boot</p>
 
-    <div class="hero-buttons">
-       <a href="resume.pdf/Aishwarya_Behare_Resume.pdf" class="btn" download>
-  Download Resume
-</a>
-        <a href="#projects" class="btn outline">View Projects</a>
-    </div>
-</section>
+    <!-- CONTENT AREA -->
+    <main class="content">
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a backend developer passionate about building scalable and
-        maintainable applications using Java, Spring Boot, and MySQL.
-    </p>
-</section>
+        <div class="card">
 
-<section id="skills">
-    <h2>Skills</h2>
+            <!-- ABOUT -->
+            <section id="about" class="section">
+                <h1>About Me</h1>
+                <p>
+                    I am a Java Backend Developer with strong knowledge of OOP,
+                    Data Structures, and DBMS. I enjoy building clean and scalable
+                    backend systems using Spring Boot and REST APIs.
+                </p>
+                <p>
+                    I have worked on projects like an AI-based email assistant
+                    and an online job portal, and I continuously improve my
+                    problem-solving and backend development skills.
+                </p>
+            </section>
 
-    <div class="card-container">
-        <div class="card">Java</div>
-        <div class="card">Object-Oriented Programming (OOP)</div>
-        <div class="card">Spring Boot</div>
-        <div class="card">MySQL</div>
-        <div class="card">HTML</div>
-        <div class="card">CSS</div>
-        <div class="card">Low-Level Design (LLD)</div>
-    </div>
-</section>
+            <!-- SKILLS -->
+            <section id="skills" class="section">
+    <h1>Technical Skills</h1>
 
-<section id="projects">
-    <h2>Projects</h2>
+    <div class="skill-groups">
 
-    <div class="card-container">
-        <div class="card project-card">
-            <h3>Online Job Portal</h3>
-            <p>Spring Boot, MySQL, REST APIs</p>
-            <a href="https://github.com/ash15-pro/jbportal" target="_blank">GitHub</a>
+        <div class="skill-group">
+            <h3>Programming Languages</h3>
+            <p>Java, Python, SQL</p>
         </div>
 
-        <div class="card project-card">
-            <h3>Smart AI Based Email Assistant</h3>
-            <p>Java, Spring Boot</p>
-            <a href="https://github.com/ash15-pro/email-writer-sb1" target="_blank">GitHub</a>
+        <div class="skill-group">
+            <h3>Frameworks</h3>
+            <p>Spring Boot, RESTful APIs</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Technical Concepts</h3>
+            <p>Object-Oriented Programming (OOP), Data Structures and Algorithms</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Technologies</h3>
+            <p>Computer Networking, Database Management Systems (DBMS)</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Tools</h3>
+            <p>GitHub, IntelliJ IDEA, Postman</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Development Skills</h3>
+            <p>Debugging, API Integration</p>
+        </div>
+
+        <div class="skill-group">
+            <h3>Soft Skills</h3>
+            <p>Time Management, Problem Solving</p>
+        </div>
+
+    </div>
+</section>
+
+
+            
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h1>Projects</h1>
+
+    <!-- Project 1 -->
+    <div class="project-card">
+        <h3>Smart AI-Based Email Assistant</h3>
+        <p>Spring Boot REST API that generates email replies using Gemini AI.</p>
+        <div class="project-links">
+            <a href="#" class="view-project">View Project →</a>
+            <a href="https://github.com/aishwaryabehare1504/email-writer-sb1" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
         </div>
     </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+        <h3>Online Job Portal</h3>
+        <p>Secure job portal using Spring Boot, Spring Security, and MySQL.</p>
+        <div class="project-links">
+            <a href="#" class="view-project">View Project →</a>
+            <a href="https://github.com/aishwaryabehare1504/jbportal" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+
 </section>
 
-<section id="contact">
-    <h2>Contact</h2>
 
-    <p>Email: <a href="mailto:aishwaryabehare@email.com">aishwaryabehare@email.com</a></p>
+            <!-- CONTACT -->
+<section id="contact" class="section">
+    <h1>Contact</h1>
+    <p>Email: <a href="mailto:aishwaryabehare@email.com" class="email-link">
+        aishwaryabehare@email.com
+    </a></p>
 
-    <div class="social-links">
-        <a href="https://github.com/ash15-pro" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/aishwarya-behare-45191b307/" target="_blank">LinkedIn</a>
-        <a href="https://leetcode.com/u/AishwaryaBehare15/" target="_blank">LeetCode</a>
+    <div class="icons">
+        <a href="https://github.com/aishwaryabehare1504" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aishwarya-behare-45191b307/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:aishwaryabehare@email.com">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="#" title="Portfolio">
+            <i class="fas fa-briefcase"></i>
+        </a>
     </div>
 </section>
 
-<script src="js/script.js"></script>
+        </div>
+    </main>
+</div>
+
 </body>
 </html>
-
